@@ -63,25 +63,17 @@ public class Optimal {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        while (true) {
-            System.out.print("Reference list (empty list to exit): ");
-            String input = scanner.nextLine();
-            if (input.isEmpty()) {
-                break;
-            }
-            List<Integer> references = new ArrayList<>();
-            for (String ref : input.split(" ")) {
-                references.add(Integer.parseInt(ref));
-            }
-            Optimal optimal = new Optimal(references);
-            while (true) {
-                System.out.print("Number of frames (-1 to exit): ");
-                int totalFrames = Integer.parseInt(scanner.nextLine());
-                if (totalFrames == -1) {
-                    System.exit(0);
-                }
-                optimal.run(totalFrames);
-            }
+        System.out.print("Reference list (empty list to exit): ");
+        String input = scanner.nextLine();
+        System.out.print("Number of frames (-1 to exit): ");
+        int totalFrames = Integer.parseInt(scanner.nextLine());
+
+        List<Integer> references = new ArrayList<>();
+        for (String ref : input.split(" ")) {
+            references.add(Integer.parseInt(ref));
         }
+        Optimal optimal = new Optimal(references);
+
+        optimal.run(totalFrames);
     }
 }
