@@ -28,7 +28,10 @@ public class LFU {
     private static void process(int[] pages, int capacity) {
         // TODO Auto-generated method stub
         int [] frequency = new int[capacity];
-        int [] cache = {-1, -1, -1, -1};
+        int [] cache = new int[capacity];
+        for (int i = 0; i < capacity; i++) {
+            cache[i] = -1;
+        }
         int len = pages.length;
 
         System.out.println();
