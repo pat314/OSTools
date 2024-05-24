@@ -50,18 +50,18 @@ public class FIFO {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter space-separated pages (empty list to exit): ");
-            String input = scanner.nextLine();
+        System.out.print("Enter space-separated pages (empty list to exit): ");
+        String input = scanner.nextLine();
 
-            System.out.print("Number of frames (-1 to exit): ");
-            int totalFrames = scanner.nextInt();
+        System.out.print("Number of frames (-1 to exit): ");
+        int totalFrames = scanner.nextInt();
 
-            List<Integer> references = new ArrayList<>();
-            for (String ref : input.split(" ")) {
-                references.add(Integer.parseInt(ref));
-            }
-            FIFO fifo = new FIFO(references);
-            fifo.run(totalFrames);
+        List<Integer> references = new ArrayList<>();
+        for (String ref : input.split(" ")) {
+            references.add(Integer.parseInt(ref));
+        }
+        FIFO fifo = new FIFO(references);
+        fifo.run(totalFrames);
     }
 }
 
