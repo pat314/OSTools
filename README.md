@@ -40,11 +40,12 @@ The OSTool includes:
    5. _LFU_
    6. _MFU_
 2. Working set
-3. Disk Scheduling
+3. Chapter 7 Calculator: File Allocation Methods
+4. Disk Scheduling
    1. _FCFS_
    2. _SSTF_
    3. _SCAN_
    4. _C-SCAN_
    5. _LOOK_
    6. _C_LOOK_
-4. RAID5: Parity Block
+5. RAID5: Parity Block
