@@ -25,9 +25,9 @@ To utilize these resources, begin by cloning them to your local computer. Once c
 
 **Important Guidelines for Spreadsheet Use**:
 
-- **Data Entry**: Only input data in the specified cells with black borders.
-- **Cell Restrictions**: Do not attempt to edit, copy, or view the formulas in other calculation cells.
-- **Saving Restrictions**: Avoid saving the spreadsheet in an editable format other than the designated data entry cells. This ensures the integrity and accuracy of the calculations.
+- **Data Entry**: Only input data in the specified cells with black borders (and the coresponding unit cells).
+- **Cell Restrictions**: You are not allowed to edit, copy, or view the formulas in other calculation cells.
+- **Saving Restrictions**:You cannot save the spreadsheet in an editable format other than the designated data entry cells. This ensures the integrity and accuracy of the calculations.
 
 By adhering to these instructions, you can effectively utilize the provided algorithms and spreadsheets to obtain precise and swift results for various calculation problems.
 #### 3. Detail
